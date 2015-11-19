@@ -1,0 +1,57 @@
+p{
+	color: red;
+	font-family: sans-serif;	
+}	
+
+.btn {
+
+	color: white;
+	font-family: sans-serif;
+	margin: 10px 1px 10px 1px;
+	border-style: outset; 
+	border-radius: 4px;	
+	width: 180px;
+	height: 50px;	
+	cursor: pointer;
+}
+
+.btn:hover, .btn.hover {
+
+	opacity: .5;
+
+}
+
+.btn[disabled="true"] {
+
+ opacity: .2;
+ cursor: no-drop;
+
+}
+
+.btn.fileira1 {
+
+	background-color: #00be9c;
+	
+
+}
+
+.btn.fileira2 {
+
+	background-color: #c0a500;
+	
+	
+}
+
+.btn.fileira3 {
+
+	background-color: #3c497b;
+	
+	
+}
+
+.btn.fileira4 {
+
+	background-color: #e72933;
+	
+}
+

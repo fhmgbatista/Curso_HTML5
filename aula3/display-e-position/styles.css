@@ -1,0 +1,53 @@
+.cards {
+
+	display: inline-block;
+	position:relative;
+	box-shadow: 3px 3px 3px black;
+	padding: 10px 10px 50px 10px;
+	border-radius: 5px;
+	color:black;
+	font-size: 14px;
+	font-family: sans-serif;
+	width: 300px;
+	height: 150px;	
+
+	}
+
+
+.cards h1 {
+
+	color: red;
+	font-size: 20px;
+
+}
+
+.cards menu {
+
+	left:0;
+	position: absolute;
+	display: inline-block;
+	bottom: 0;
+	height: 30px;
+	width: 100%;
+	margin:0;
+	padding-left: 0;
+	border-top: 1px solid;
+	border-top-color: gray;
+	
+
+
+}
+
+.cards menu button {
+
+	background-color: white;
+	border: none;
+	line-height: 25px;
+	width: 40px;
+	 
+}
+
+
+
+
+

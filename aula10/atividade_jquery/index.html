@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	div {
+		margin-bottom: 10px;
+	}
+	.address-filled.hidden {
+		display: none;
+	}		 
+
+	</style>
+</head>
+<body>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="jquery_mask.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#getEndereco").click(function(){
+				getEndereco($("#cep").val());
+			});
+		});
+	</script>
+
+<form action="">
+
+	<div>
+		<input type="text" maxlength="8" value="" placeholder="CEP" name="zipcode" autocomplete="off">
+		<button id="search-zipcode" value="Pesquisar"> Pesquisar</button>
+	</div>
+	<p id="loadingCep"></p>
+	<br>
+	<div class="address-filled hidden">
+		<input type="text" id="end" readonly="readonly" placeholder="Endereço">
+	<br>
+	<input type="text" id="cidade" readonly="readonly" placeholder="Cidade">
+	<br>
+	<input type="text" id="bairro" readonly="readonly" placeholder="Bairro"> 
+	<br>
+	<input type="text" id="estado" readonly="readonly" placeholder="Estado">
+	</div>
+	
+</form>
+</body>
+</html>

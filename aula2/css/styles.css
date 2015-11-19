@@ -1,0 +1,22 @@
+.btn {
+
+	display:inline-block;
+	width: 80px;
+	height: 80px;
+	margin: 5px 5px 5px 5px;
+	background-color: #4e4e4e;
+	color: white;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 70px;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+.btn:hover, .btn.hover {
+
+	background-color: white;
+	color: gray;
+	
+}

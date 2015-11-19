@@ -1,0 +1,15 @@
+extends layouts/sample
+
+
+block content
+
+	form(name="ativ", action="", method="")
+		div
+			label
+					span.fa.fa-user
+					input(type="text", placeholder="Username", name="Username")
+		div
+					span.fa.fa-lock
+					input(type="text", placeholder="Password", name="Password")
+		div
+			button.btn() log in

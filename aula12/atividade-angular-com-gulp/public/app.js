@@ -1,0 +1,1 @@
+function ListController(o){o.drinks=["Budwieser","Whisky","Skol"]}angular.module("atividade",[]),angular.module("atividade").controller("ListController",ListController),ListController.$inject=["$scope"];

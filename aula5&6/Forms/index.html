@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+	<form action="" id="myForm">
+
+	<div>
+
+	<label for="">
+		Nome: 
+		<input type="text" name="firstname" placeholder="nome" autocapalize="off"> 
+	</label>
+	<BR><BR>
+	<label for="">
+		Sobrenome:
+		<input type="text" name="lastname" placeholder="sobrenome"> 
+	</label>
+
+	</div>
+	<BR>
+	<div>
+		E-mail: <input type="email" name="email" placeholder="email">
+	</div>
+	<BR>
+	<div>
+		CPF: <input type="text" name="cpf" placeholder="cpf" autocomplete="off"> 
+	</div>
+	<BR>
+	<div>
+		Data: <input type="date" placeholder="date" name="date" min="2015-10-06" max="2015-10-10" required>
+	</div>	
+	<BR>
+	<div>
+		Selecione o idioma: <select name="language">
+		<option value="PT-BR" selected>Português (Brasil)</option>
+		<option value="PT-PORT">Português (Portugal)</option>
+		<option value="IN-USA">Inglês</option>
+		<option value="ES-ESP">Espanhol</option>
+		<option value="JP-JAP">Japonês</option>	
+		</select>		
+	</div>
+	<BR>
+	<div>
+		URL: <input type="url" placeholder="url">
+	</div>
+	<BR>	
+	<div>
+		Descrição:
+		<textarea name="descricao" placeholder="descrição"></textarea> 
+	</div>
+	<BR>
+	<div>
+		Sexo:
+		<input type="radio" name="sexo" value="female"> Feminino
+		<input type="radio" name="sexo" value="male"> Masculino
+
+	</div>
+	<BR>
+	<div>
+
+	<input type="checkbox" name="cursos" value="Js">JavaScript  
+	<input type="checkbox" name="cursos" value="Ht">HTML5
+	<input type="checkbox" name="cursos" value="Cs">CSS3
+	<input type="checkbox" name="cursos" value="Co">Cordova
+	<input type="checkbox" name="cursos" value="Ph">Phonegap
+
+	</div>
+	<BR>
+	<div>
+		Foto:
+		<input type="file" multiple accept="image/jpeg,image/gif,image/png">
+
+	</div>
+	<BR>
+	<div>
+		
+		Telefone:
+		<input type="tel" placeholder="phone" name="phone">	
+
+	</div>
+	<BR>
+	<div>
+		Número:
+		<input type="number" placeholder="num" name="num" min="10" max="100" >
+		
+	</div>
+	<BR>
+	
+	<div>
+		Cor:
+		<input type="color" >
+
+	</div>
+	<BR>
+	<div>
+
+		Pesquisar:
+		<input type="search" >	
+
+	</div>
+	<BR>
+	
+	<div contenteditable>
+		Quantidade:
+		<input type="range" min="0" max="100" value="50" name="rangevalue" step="10">	
+	</div>
+	<BR>
+	<button type="submit"> Enviar</button>
+	<button type="reset"> Resetar </button>
+
+	</form>
+</body>
+</html>

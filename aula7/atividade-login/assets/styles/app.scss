@@ -1,0 +1,65 @@
+/* inject:imports */
+/* endinject */
+
+form {
+	width: 5px;
+	height: 5px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: helvetica, sans-serif;
+  
+}
+
+label{
+
+	position: relative;
+	
+}
+
+span {	
+	
+	position: absolute;
+
+	padding: 10px;
+}
+
+
+input[type="text"] {
+
+	box-sizing: border-box;
+	width: 175px;
+	height: 35px;
+	padding-left: 35px;
+	padding-right: 10px;
+	
+
+}
+
+.btn	{
+
+ 	display: inline-block;
+ 	background-color:#f27935;
+ 	width: 175px;
+ 	height: 35px;
+ 	color: white;
+ 	font-weight: bold;
+ 	border-radius: 3px;
+ 	box-sizing: border-box;
+ 	border: 0px;
+ 	margin-top: 10px;
+ 	text-size: 12px;
+
+ }
+
+// span.iconuser {
+
+// 	background-image: url(http://goo.gl/96wIlg);
+// 	position: absolute;	
+// 	background-image-width: inherit;
+// 	background-image-height: inherit;
+// 	padding:25px;
+// }
+
+
